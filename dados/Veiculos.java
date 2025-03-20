@@ -20,4 +20,9 @@ public class Veiculos {
     public double calcularAluguel(int dias) {
         return dias * precoDiaria;
     }
+
+    @Override
+    public String toString() {
+        return "Modelo: " + modelo + ", Preço da diária: R$" + precoDiaria;
+    }
 }

@@ -16,4 +16,9 @@ public class Clientes {
     public String getCpf() {
         return cpf;
     }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + ", CPF: " + cpf;
+    }
 }
